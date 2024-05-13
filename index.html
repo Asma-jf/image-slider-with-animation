@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>  
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper container">
+            <img class="swiper-slide" src="1.jpg" alt="">
+            <img class="swiper-slide" src="2.jpg" alt="">
+            <img class="swiper-slide" src="3.jpg" alt="">
+            <img class="swiper-slide" src="4.jpg" alt="">
+            <img class="swiper-slide" src="5.jpg" alt="">
+            <img class="swiper-slide" src="6.jpg" alt="">
+            <img class="swiper-slide" src="7.jpg" alt="">
+            <img class="swiper-slide" src="8.jpg" alt="">
+            <img class="swiper-slide" src="9.jpg" alt="">
+            <img class="swiper-slide" src="10.jpg" alt="">
+            <img class="swiper-slide" src="11.jpg" alt="">
+            <img class="swiper-slide" src="12.jpg" alt="">
+            <img class="swiper-slide" src="12.jpg" alt="">
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 8,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+        });
+    </script>
+</body>
+</html>
